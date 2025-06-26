@@ -19,6 +19,9 @@ public class ContaBanco {
 		System.out.println("Status da conta: " + this.getStatus());
 	}
 
+	public ContaBanco(){
+		system.out.println("Olá");
+
 	public void abrirConta(String t) {
 		this.setTipo(t);
 		this.setStatus(true);
